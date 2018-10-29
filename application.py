@@ -16,6 +16,11 @@ def rand():
     foo = ['its beautiful', 'its hot', 'its good', 'its calm', 'its peaceful']
     return random.choice(foo)
 
+@ask.launch
+def start_skill():
+    welcome_message = 'Hello there,'
+    return statement(welcome_message)
+
 @ask.intent('GetNewFactIntent')
 def intent():
     foo = ['Thiruvalla is a beautiful city', 'Thiruvalla is a very developed city', 'Thiruvalla is good', 'Thiruvalla is very calm','Thiruvalla is a peaceful city']
