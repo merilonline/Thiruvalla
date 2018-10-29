@@ -1,12 +1,8 @@
 click==6.7
-flask-ask==0.9.7
+Flask==1.0.2
 itsdangerous==0.24
 Jinja2==2.10
 MarkupSafe==1.0
 Werkzeug==0.14.1
-aniso8601==1.2.0
-Flask==0.12.1
-cryptography==2.1.4
-pyOpenSSL==17.0.0
-six==1.11.0
+flask-ask==0.9.7
 git+https://github.com/yaml/pyyaml.git
