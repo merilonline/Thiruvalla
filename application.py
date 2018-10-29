@@ -18,6 +18,6 @@ def rand():
 
 @ask.intent('GetNewFactIntent')
 def intent():
-    foo = ['its beautiful', 'its hot', 'its good', 'its calm', 'its peaceful']
+    foo = ['Thiruvalla is a beautiful city', 'Thiruvalla is a very developed city', 'Thiruvalla is good', 'Thiruvalla is very calm','Thiruvalla is a peaceful city']
     text = 'Hello There, '+random.choice(foo)
     return statement(text)
