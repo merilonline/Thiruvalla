@@ -1,6 +1,5 @@
 click==6.7
 flask-ask==0.9.7
-PyYAML==3.12
 itsdangerous==0.24
 Jinja2==2.10
 MarkupSafe==1.0
