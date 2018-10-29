@@ -9,3 +9,4 @@ git+https://github.com/yaml/pyyaml.git
 aniso8601==1.2.0
 pyOpenSSL==17.0.0
 six==1.11.0
+cryptography==2.4
