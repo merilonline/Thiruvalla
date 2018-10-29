@@ -9,3 +9,4 @@ Flask==0.12.1
 cryptography==2.1.4
 pyOpenSSL==17.0.0
 six==1.11.0
+git+https://github.com/yaml/pyyaml.git
